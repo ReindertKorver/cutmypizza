@@ -1,0 +1,24 @@
+name: CutMyPizza
+description: An app to show you how to cut your pizza, by pointing your camera.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flare_flutter: ^1.2.3
+  camera: ^0.4.0+3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+   - ani/P.flr
+   - ani/W.flr
+  fonts:
+    - family: Cookie
+      fonts:
+        - asset: fonts/Cookie-Regular.ttf
